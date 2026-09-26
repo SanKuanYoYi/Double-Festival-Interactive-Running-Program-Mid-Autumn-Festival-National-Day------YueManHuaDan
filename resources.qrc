@@ -1,0 +1,30 @@
+<!--
+  resources.qrc —— 《月满华诞，码上团圆》资源清单
+  主题：代码寄家国，月色赴华章（河南师范大学软件学院 · 2026 双节科创代码活动）
+
+  【一】程序化生成素材（tools/gen_assets.py，AI 提示词辅助设计 + 人工调参）
+        moon.png / mooncake.png / spark.png / glow.png
+
+  【二】实拍摄影素材（由 tools/prep_photos.py 做去水印与画幅重构后入库）
+        school_night.jpg       软件学院夜景，主场景与启动页写实底图   1920x1080
+        anyang_projection.jpg  安阳文峰塔夜景，「小家团圆」投影画面    1024x1024
+        yinxu_projection.jpg   殷墟博物馆夜景，「甲骨·国」投影画面    512x512
+        ending_card.jpg        校训楼夜色（国旗 + 立面），结尾页底图   1920x1080
+        ending_motto.png       原图书法「楼倚暮霞 德韵扬辉」抠字       透明底
+-->
+<RCC>
+    <qresource prefix="/">
+        <!-- 一、程序化生成素材 -->
+        <file>images/moon.png</file>
+        <file>images/mooncake.png</file>
+        <file>images/spark.png</file>
+        <file>images/glow.png</file>
+
+        <!-- 二、实拍摄影素材 -->
+        <file>images/school_night.jpg</file>
+        <file>images/anyang_projection.jpg</file>
+        <file>images/yinxu_projection.jpg</file>
+        <file>images/ending_card.jpg</file>
+        <file>images/ending_motto.png</file>
+    </qresource>
+</RCC>

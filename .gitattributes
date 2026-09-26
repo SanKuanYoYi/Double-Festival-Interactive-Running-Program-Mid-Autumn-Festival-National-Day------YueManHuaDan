@@ -1,0 +1,17 @@
+# 统一换行符：Windows 脚本用 CRLF，其余文本走 LF
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.sh    text eol=lf
+*.py    text eol=lf
+*.cpp   text eol=lf
+*.h     text eol=lf
+*.pro   text eol=lf
+*.qrc   text eol=lf
+*.md    text eol=lf
+
+# 图片按二进制处理
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.ico   binary
+*.wav   binary

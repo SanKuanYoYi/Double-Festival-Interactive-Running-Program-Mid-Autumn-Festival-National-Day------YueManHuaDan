@@ -1,0 +1,39 @@
+# 构建产物
+build/
+release/
+debug/
+Makefile*
+*.o
+*.obj
+*.pdb
+*.ilk
+moc_*.cpp
+moc_predefs.h
+qrc_*.cpp
+ui_*.h
+ui_*.cpp
+*.qmake.stash
+.o/
+.obj/
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 打包产物
+deploy/
+*.exe
+*.dll
+*.zip
+
+# 若用 aqtinstall 在本工程内装了 Qt（放 .qt-env/），体积大，不提交
+.qt-env/
+# 解压出来专供 GitHub 网页拖拽上传的干净副本
+upload-ready/
