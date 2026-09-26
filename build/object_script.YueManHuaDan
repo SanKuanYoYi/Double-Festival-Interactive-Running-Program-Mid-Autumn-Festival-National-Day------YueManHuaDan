@@ -1,0 +1,11 @@
+build/obj/main.o
+build/obj/mainwindow.o
+build/obj/nightscene.o
+build/obj/gamewidget.o
+build/obj/endingcard.o
+build/obj/soundfx.o
+build/obj/qrc_resources.o
+build/obj/moc_mainwindow.o
+build/obj/moc_nightscene.o
+build/obj/moc_gamewidget.o
+build/obj/moc_endingcard.o
